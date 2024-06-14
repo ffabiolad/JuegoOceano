@@ -1,0 +1,134 @@
+*{
+    font-family: 'Amatic SC', cursive;
+}
+
+#TablaR {
+    width: 75%;
+}
+
+#TablaR,
+tr,
+th,
+td {
+    background-color: #00ffcc32;
+
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    border: 2px solid rgb(10, 1, 1);
+    border-style: double;
+    border-collapse: separate;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 35px;
+}
+th{
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-size: 35px;
+
+}
+h2, h4{
+
+    color:black;
+    font-style: italic;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    min-width: 300px;
+    margin-right: 40px;
+    min-height: 60px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #000000;
+    background: #2a1960;
+     background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+
+    a::before {
+        content: '';
+          border-radius: 1000px;
+          min-width: calc(300px + 12px);
+          min-height: calc(60px + 12px);
+          border: 6px solid #00FFCB;
+          box-shadow: 0 0 60px rgba(46, 100, 89, 0.64);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          transition: all .3s ease-in-out 0s;
+        }
+        
+        .button:hover, .button:focus {
+          color: #25259d;
+          transform: translateY(-6px);
+        }
+
+    .container {
+        height: 900px;
+        width: 100%;
+        background: #0f9bf6;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .content {
+        text-align: center;
+        font-size: 2em;
+        color: black;
+      }
+      .waves {
+        position: absolute;
+        /*      left: 0;bottom: 0;*/
+        bottom: -135px;
+        height: 527px;
+        width: 100%;
+        overflow: hidden;
+      }
+      .wave {
+        position: absolute;
+        left: -180px;
+        bottom: 0;
+        /*width: 200px;*/
+        width: 2402px;
+        height: 427px;
+        background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+        animation: 5s wave ease-in-out infinite alternate;
+      }
+      .wave.a {
+        background-position: 0 -854px;
+      }
+      .wave.b {
+        background-position: 0 -427px;
+        animation-delay: 0.6s;
+      }
+      .wave.c {
+        background-position: 0 0;
+        animation-delay: 1.2s;
+      }
+      @keyframes wave {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(-80px, 30px);
+        }
+        100% {
+          transform: translate(160px, -60px);
+        }
+      }

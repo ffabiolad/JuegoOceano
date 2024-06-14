@@ -1,0 +1,131 @@
+body{
+    background-image: url(../images/imagen1.jpeg);
+    background-size: 100%;
+}
+.nombreAnimal{
+    background-color: blue;
+    padding: 20px;
+    border: 2px solid black;
+    width: 110px;
+}
+
+.cajaAnimal{
+    border: 2px solid black;
+    width: 110px;
+    margin-top: 10px;
+}
+
+
+#conoceFijo {
+    position: absolute;
+    left: 130px;
+    top: 50px;
+}
+
+#cajatxt{
+    border: 2px solid black;
+    width: 110px;
+}
+
+.textoAnimal{
+    border: 2px solid black;
+    width: 110px;
+    margin-top: 10px;
+}
+
+#chido{
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+}
+
+#arrastrables{
+    position: absolute;
+    left: 1700px;
+    top: 20px;
+}
+
+#TITLE{
+
+    font-family: 'Climate Crisis', cursive;
+    font-size: 4em;
+}
+
+
+.name{
+    background: linear-gradient(45deg, rgb(32, 114, 214) 0%, rgb(78, 140, 213) 100%);
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 2em;
+    padding-left: 10px;
+
+    
+}
+
+.icono{
+    width: 2vw;
+	height: 7vh;
+}
+
+/*****************************************/
+.icono{
+    width: 2vw;
+	height: 7vh;
+}
+#player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:80px;
+    width: 80px;
+    padding: 12px 18px;
+    z-index: 2;
+    margin-left: 20%;
+    margin-top: 0px;
+  
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:50px;
+    background-color: none;
+    position: absolute; top:20px; left:10px;
+  }
+  .play {
+    background-image: url(../images/No_Music.svg);
+  }
+  .pause {
+     background-image: url(../images/Si_Music.svg)!important;
+  }
+
+  /* botones y de mas jeje*/
+.wrap2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; top:250px; left:40%;
+  }
+  .button {
+    text-decoration: none;
+    text-align: center;
+    min-width: 300px;
+    margin-right: 40px;
+    min-height: 60px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #000000;
+    background: #2f6c66;
+     background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  

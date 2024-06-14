@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/estilos.css">
+        <link rel="stylesheet" href="styles/creditos.css">
+        <link rel="shortcut icon" href="images/favincon.webp">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title> Mar </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+          rel="stylesheet"/>
+
+        <style>
+            button{
+	            border: transparent;
+	            background: transparent;
+                width: 2vw;
+	            height: 7vh;
+            }
+        </style>
+    
+    </head>
+
+    <body onload="Carga()">
+        <p>
+            <span id="minutos"></span>:<span id="segundos"></span>
+        </p>
+        <p>
+            <span id="puntos">Puntaje actual: 0</span>
+        </p>
+        <section>
+            <!--Contenedor de las imagenes-->
+            <div id="imagenes"">
+
+            </div>
+
+
+            <!--Elementos que se van a arrastrar-->
+            <div id="arrastrables"">
+
+            </div>
+            <!--Lugar donde se van a arrastrar-->
+            <div id="cajas">
+
+            </div>
+
+        </section>
+        <script src="js/contador.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/Agregar.js"></script>
+
+   <!-- musica pausable -->
+<audio id="track">
+    <source src="sounds/fondo.wav" type="audio/wav" />
+  </audio>
+  
+  <div id="player-container">
+    <div id="play-pause" class="play">Play</div>
+  </div>
+
+<script src="js/sonido.js"></script>
+
+<div class="waves">
+    <div class="wave circulo a"></div>
+    <div class="wave circulo b"></div>
+    <div class="wave circulo c"></div>
+  </div>
+
+
+    <a href="index.html" class="button-exit">Volver a pantalla inicio</a>
+    </body>
+</html>
